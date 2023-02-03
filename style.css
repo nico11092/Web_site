@@ -1,0 +1,214 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 170px;
+  padding: 0 20px;
+  background-color: lightblue;
+  position: relative;
+}
+
+.navbar .logo{
+  display: flex;
+  width: 100px;
+  height: 80px;
+  background: url(assets/images/png-clipart-red-computer-mouse-graphic-design-logo-art-computer-mouse-design-computer-network-web-design.png);
+}
+
+.navbar .menu{
+  z-index: 3;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: green;
+}
+
+.navbar .menu .sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: -250px;
+  background-color: #e8e8e8;
+  padding-top: 60px;
+  transition: right 0.5s ease;
+}
+
+.navbar .menu .sidenav a {
+  padding: 8px 32px 8px 32px;
+  float: right;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar .menu .sidenav a:hover {
+  color: #111;
+}
+
+.navbar .menu .sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.navbar .menu .sidenav.active {
+  right: 0;
+}
+
+/* Close btn */
+.navbar .menu .sidenav .close {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  font-size: 36px;
+}
+
+.navbar .menu .burger-icon span {
+  display: block;
+  width: 80px;
+  height: 13px;
+  background-color: black;
+  margin: 11px 0;
+  border-radius: 25px;
+}
+
+.header{
+  height: 50%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+.header img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index:1;
+}
+
+.header .title{
+  margin-top: 42%;
+  margin-left: 20%;
+  display: flex;
+  width: 60%;
+  height: 15%;
+  background-color: gray;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  z-index:2
+}
+
+.header .title h1{
+  font-size: 6em;
+}
+
+.container{
+  display: grid;
+  height: inherit;
+  position:relative;
+  width: 100%;
+}
+
+.container .container1{
+  display: block;
+  background-color: bisque;
+  width: 100%;
+}
+
+.container .container1 .logo{
+  background-color: aqua;
+  width: 60%;
+  height: 15%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.container .container1 .presentation{
+  background-color: brown;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.container .container1 .presentation h3{
+  text-align: center;
+  font-size: 3em;
+}
+
+.container .container1 .presentation p{
+  text-align: justify;
+  font-size: 2.5em;
+}
+
+.container .container2{
+  background-color:cornflowerblue;
+  width: 100%;
+}
+
+.container .container2 .presentation{
+  background-color: brown;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.container .container2 .presentation h3{
+  text-align: center;
+  font-size: 3em;
+}
+
+.container .container2 .presentation p{
+  text-align: justify;
+  font-size: 2.5em;
+}
+
+.container .container2 .project{
+  display: block;
+  background-color:dimgray;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.container .container2 .project .cart{
+  display: block;
+  background-color: aqua;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.container .container2 .project .cart .info_cart h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container .container3{
+  background-color:crimson;
+  width: 100%;
+}
