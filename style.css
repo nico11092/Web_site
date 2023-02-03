@@ -16,9 +16,12 @@ html, body{
 
 .navbar .logo{
   display: flex;
-  width: 100px;
-  height: 80px;
-  background: url(assets/images/png-clipart-red-computer-mouse-graphic-design-logo-art-computer-mouse-design-computer-network-web-design.png);
+  height: 170px;
+  margin-left: -65px;
+}
+
+.navbar .logo img{
+  height: 170px;
 }
 
 .navbar .menu{
@@ -26,27 +29,26 @@ html, body{
   display: flex;
   width: 80px;
   height: 80px;
-  background-color: green;
 }
 
 .navbar .menu .sidenav {
   height: 100%;
-  width: 250px;
+  width: 350px;
   position: fixed;
   z-index: 1;
   top: 0;
-  right: -250px;
+  right: -350px;
   background-color: #e8e8e8;
-  padding-top: 60px;
+  padding-top: 100px;
   transition: right 0.5s ease;
 }
 
 .navbar .menu .sidenav a {
-  padding: 8px 32px 8px 32px;
+  padding: 20px 32px 20px 32px;
   float: right;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 2.5em;
+  color: black;
   display: block;
   transition: 0.3s;
 }
@@ -71,7 +73,7 @@ html, body{
   position: absolute;
   top: 0;
   left: 0px;
-  font-size: 36px;
+  font-size: 4em;
 }
 
 .navbar .menu .burger-icon span {
@@ -113,7 +115,6 @@ html, body{
   display: flex;
   width: 60%;
   height: 15%;
-  background-color: gray;
   position: absolute;
   align-items: center;
   justify-content: center;
@@ -138,11 +139,15 @@ html, body{
 }
 
 .container .container1 .logo{
-  background-color: aqua;
   width: 60%;
   height: 15%;
   margin: auto;
   margin-top: 5%;
+  text-align: center;
+}
+
+.container .container1 .logo img{
+  margin-top: -25px;
 }
 
 .container .container1 .presentation{
