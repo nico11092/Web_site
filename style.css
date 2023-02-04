@@ -10,7 +10,7 @@ html, body{
   align-items: center;
   height: 170px;
   padding: 0 20px;
-  background-color: lightblue;
+  background-color: #207993;
   position: relative;
 }
 
@@ -48,13 +48,13 @@ html, body{
   float: right;
   text-decoration: none;
   font-size: 2.5em;
-  color: black;
+  color: #207993;
   display: block;
   transition: 0.3s;
 }
 
 .navbar .menu .sidenav a:hover {
-  color: #111;
+  color: #207993;
 }
 
 .navbar .menu .sidenav ul {
@@ -80,7 +80,7 @@ html, body{
   display: block;
   width: 80px;
   height: 13px;
-  background-color: black;
+  background-color: white;
   margin: 11px 0;
   border-radius: 25px;
 }
@@ -134,7 +134,7 @@ html, body{
 
 .container .container1{
   display: block;
-  background-color: bisque;
+  background-color: white;
   width: 100%;
 }
 
@@ -151,7 +151,6 @@ html, body{
 }
 
 .container .container1 .presentation{
-  background-color: brown;
   width: 90%;
   margin: auto;
   margin-top: 5%;
@@ -159,22 +158,23 @@ html, body{
 }
 
 .container .container1 .presentation h3{
+  color: #207993;
   text-align: center;
   font-size: 3em;
 }
 
 .container .container1 .presentation p{
+  color: #207993;
   text-align: justify;
   font-size: 2.5em;
 }
 
 .container .container2{
-  background-color:cornflowerblue;
+  border-top: 1px solid #207993;
   width: 100%;
 }
 
 .container .container2 .presentation{
-  background-color: brown;
   width: 90%;
   margin: auto;
   margin-top: 5%;
@@ -184,16 +184,17 @@ html, body{
 .container .container2 .presentation h3{
   text-align: center;
   font-size: 3em;
+  color: #207993;
 }
 
 .container .container2 .presentation p{
   text-align: justify;
   font-size: 2.5em;
+  color: #207993;
 }
 
 .container .container2 .project{
   display: block;
-  background-color:dimgray;
   width: 90%;
   margin: auto;
   margin-top: 5%;
@@ -201,16 +202,40 @@ html, body{
 
 .container .container2 .project .cart{
   display: block;
-  background-color: aqua;
+  height: 570px;
   width: 50%;
   margin: auto;
   margin-bottom: 5%;
   text-align: center;
+  border-radius: 15px;
+  border: solid;
+}
+
+.container .container2 .project .cart img{
+  width: 100%;
+  margin-bottom: 5%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .container .container2 .project .cart .info_cart h3{
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5%;
+  font-size: 3em;
+  text-align: center;
+  justify-content: center;
+}
+
+.container .container2 .project .cart .info_cart button{
+  width: 70%;
+  font-size: 2em;
+  margin-bottom: 5px;
+
+  
+  background-color: white;
+  color: black;
+  border: 2px solid #207993;
+  border-radius: 15px;
 }
 
 .container .container3{
