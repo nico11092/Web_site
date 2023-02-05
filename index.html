@@ -1,123 +1,147 @@
 <!doctype html>
 <html lang="fr">
-        <head>
-            <meta charset="utf-8">
-            <title>NDev</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
+     <head>
+        <meta charset="utf-8">
+        <title>NDev</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <div>
+            <h1>NDev</h1>
+        </div>
+    </header>
     <body>
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="assets/images/logo-removebg-preview.png"/>
+    <main>
+        <ul id="cards">
+            <li class="card" id="card_1">
+                <div class="card__content">
+                    <div>
+                        <h2>Qui suis-je ?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <figure>
+                        <img src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-1.jpg" alt="Image description">
+                    </figure>
+                </div>
+            </li>
+            <li class="card" id="card_2">
+                <div class="card__content">
+                    <div>
+                        <h2>Mon parcours</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <figure>
+                        <img src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-2.jpg" alt="Image description">
+                    </figure>
+                </div>
+            </li>
+            <li class="card" id="card_3">
+                <div class="card__content">
+                    <div>
+                        <h2>Mes projets</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <figure>
+                        <img src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-3.jpg" alt="Image description">
+                    </figure>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <aside>
+        <div class="external">
+            <div class="horizontal-scroll-wrapper">
+              <div class="img-wrapper slower">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/jeux_ia_1.jpg" alt="">
+                  <span>Jeux dirigés par IA</span>
                 </a>
+              </div>
+          
+              <div class="img-wrapper faster">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_1.jpg" alt="">
+                  <span>Simulation et réalisation de rivière 3D</span>
+                </a>
+              </div>
+          
+              <div class="img-wrapper slower vertical">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_2.jpg" alt="">
+                </a>
+              </div>
+          
+              <div class="img-wrapper slower slower-down">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_1.jpg" alt="">
+                </a>
+              </div>
+          
+              <div class="img-wrapper">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_2.jpg" alt="">
+                </a>
+              </div>
+          
+              <div class="img-wrapper slower">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/jeux_ia_1.jpg" alt="">
+                </a>
+              </div>
+          
+              <div class="img-wrapper faster1">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_1.jpg" alt="">
+                </a>
+              </div>
+              
+              <div class="img-wrapper slower slower2">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/jeux_ia_1.jpg" alt="">
+                </a>
+              </div>
+              
+              <div class="img-wrapper">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_2.jpg" alt="">
+                </a>
+              </div>
+              
+              <div class="img-wrapper slower">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_1.jpg" alt="">
+                </a>
+              </div>
+              
+              <div class="img-wrapper slower last">
+                <a href="#" target="_blank" rel="noopener">
+                  <img src="assets/images/realisation_simulation_riviere_2.jpg" alt="">
+                </a>
+              </div>
             </div>
-            <div class="menu">
-                <div id="mySidenav" class="sidenav">
-                    <a id="closeBtn" class="close"><strong>x</strong></a>
-                    <ul>
-                        <li><a href="#section1">Qui suis-je ?</a></li>
-                        <li><a href="#section2">Mes projets</a></li>
-                        <li><a href="#section3">Lorem Ipsum</a></li>
-                        <li><a href="#">Lorem Ipsum</a></li>
-                    </ul>
-                </div>
-                <!--menu burger-->
-                <a href="#" id="openBtn">
-                    <span class="burger-icon">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </span>
-                  </a>
-            </div>
-        </div>
-        <div class="header">
-            <div class="mySlides fade">
-                <img src="assets/images/carrousel_0.jfif"/>
-            </div>
-            <div class="mySlides fade">
-                <img src="assets/images/carrousel_1.jfif"/>
-            </div>
-            <div class="mySlides fade">
-                <img src="assets/images/carrousel_2.jfif"/>
-            </div>
-            <div class="title">
-                <h1><strong>NDEV</strong></h1>
-            </div>
-        </div>
-        <div class="container">
-            <div id="section1" class="container1">
-                <div class="logo">
-                    <img src="assets/images/logo-removebg-preview.png"/>
-                </div>
-                <div class="presentation">
-                    <h3>Qui suis-je ?</h3>
-                    <p>
-                        Le Lorem Ipsum est simplement du faux texte employé 
-                        dans la composition et la mise en page avant impression. 
-                        Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-                        depuis les années 1500, quand un imprimeur anonyme 
-                        assembla ensemble des morceaux de texte pour réaliser 
-                        un livre spécimen de polices de texte. Il n'a pas fait 
-                        que survivre cinq siècles, mais s'est aussi adapté à 
-                        la bureautique informatique, sans que son contenu n'en 
-                        soit modifié.
-                    </p>
-                </div>
-            </div>
-            <div id="section2" class="container2">
-                <div class="presentation">
-                    <h3>Mes projets</h3>
-                    <p>
-                        Le Lorem Ipsum est simplement du faux texte employé 
-                        dans la composition et la mise en page avant impression. 
-                        Le Lorem Ipsum est le faux texte standard de l'imprimerie 
-                        depuis les années 1500, quand un imprimeur anonyme 
-                        assembla ensemble des morceaux de texte pour réaliser 
-                        un livre spécimen de polices de texte. Il n'a pas fait 
-                        que survivre cinq siècles, mais s'est aussi adapté à 
-                        la bureautique informatique, sans que son contenu n'en 
-                        soit modifié.
-                    </p>
-                </div>
-                <div class="project">
-                    <div class="cart">
-                        <img src="assets/images/carrousel_0.jfif"/>
-                        <div class="info_cart">
-                            <h3>Simulation et réalisation de rivière 3D</h3>
-                            <button>Plus d'informations</button>
-                        </div>
-                    </div>
-                    <div class="cart">
-                        <img src="assets/images/carrousel_0.jfif"/>
-                        <div class="info_cart">
-                            <h3>Logiciel de réservation</h3>
-                            <button>Plus d'informations</button>
-                        </div>
-                    </div>
-                    <div class="cart">
-                        <img src="assets/images/carrousel_0.jfif"/>
-                        <div class="info_cart">
-                            <h3>Titre hjouief iufhio ftydr </h3>
-                            <button>Plus d'informations</button>
-                        </div>
-                    </div>
-                    <div class="cart">
-                        <img src="assets/images/carrousel_0.jfif"/>
-                        <div class="info_cart">
-                            <h3>Titre hjouief iufhio ftydr </h3>
-                            <button>Plus d'informations</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="section3" class="container3">
-                <p>Contact</p>
-            </div>
-        </div>
+          </div>
+    </aside>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+            <a href="#">NDev</a>.
+            </p>
+          </div>
 
-        <!--link javascript-->
-        <script src="script.js"></script>
-    </body>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>
+
 </html>
